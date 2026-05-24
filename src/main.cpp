@@ -48,7 +48,7 @@ void feedFish()
     Serial.println("DONE");
 }
 
-// HC-SR04
+// HC-SR04 distance
 float readDistanceCm()
 {
     digitalWrite(TRIG_PIN, LOW);
